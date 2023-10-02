@@ -6,7 +6,7 @@
 
 nav {
     width: 100%;
-    background-color: #cccccc;
+    background-color: rgba(12,37,84,1);
 }
 
 .image1 {
@@ -34,26 +34,56 @@ ul {
 
 li {
     display: inline-block;
-    margin-left: 300px;
+    color: white;
+    margin-left: 305px;
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
 }
+
 
 .heroImg {
     height: 500px;
     width: 100%;
+    margin: 75px auto;
     object-fit: cover;
 }
 
 .content {
     position: absolute;
     width: 100%;
-    top: 600px;
+    top: 250px;
+}
+
+.last {
+    padding-bottom: 250px;
 }
 
 footer {
     position: absolute;
-    top: 2500px;
+    top: 2050px;
     height: 200px;
     width: 100%;
     background-color: #373738;
+    text-align: center;
 }
 
+h1 {
+    background-color: rgba(12,37,84,1);
+    color: white;
+    text-align: center;
+    margin: 100px auto;
+    font-family: 'Sora', sans-serif;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    margin: auto 300px;
+    font-family: 'Sora', sans-serif;
+    line-height: 2;
+}
+
+.bottom {
+    margin-right: 350px;
+    padding: 75px;
+}
